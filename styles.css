@@ -79,3 +79,38 @@ header {
   font-size: 1.1rem;
   font-weight: 500;
 }
+#bar {
+  color: #fff;
+  display: none;
+}
+
+@media (max-width: 699px) {
+  #menu {
+    display: block;
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 80px;
+    right: -100%;
+    padding: 30px 0;
+    box-shadow: opx 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #menu.active {
+    right: 10px;
+  }
+
+  #menu li {
+    padding: 1rem;
+  }
+
+  #menu li a {
+    color: #1f4a40;
+  }
+
+  #bar {
+    display: block;
+    font-size: 1.7rem;
+    cursor: pointer;
+  }
+}

@@ -45,6 +45,21 @@ h3 {
 header {
   background-color: #1f4a40;
 }
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+#navbar .logo {
+  width: 120px;
+}
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
 
 #menu li a {
   color: #fff;

@@ -55,6 +55,11 @@ h3 {
 
 header {
   background-color: #1f4a40;
+  position: fixed;
+  top: 0;
+  right: inherit;
+  width: 100%;
+  z-index: 999;
 }
 #navbar {
   display: flex;
@@ -174,5 +179,19 @@ header {
     margin: 20px 0 0 50px;
     background: #1f4a40;
     color: #fff;
+  }
+
+  .hero-box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: auto;
+    align-items: start;
+    padding: 8rem 0;
+  }
+  .h-left {
+    width: 100%;
+  }
+  .h-right{
+    display: none;
   }
 }

@@ -215,6 +215,27 @@ header {
   margin: 1rem 1rem 1rem 0;
 }
 
+.team-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-container .fl-box {
+  border: 1px solid #c1e1d9;
+  width: 280px;
+  padding: 2rem 0;
+  border-radius: 20px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 @media (max-width: 699px) {
   #menu {
     background-color: #fff;

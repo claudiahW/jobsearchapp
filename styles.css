@@ -233,8 +233,22 @@ header {
   justify-content: center;
   align-items: center;
 }
+.fl-box img{
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
 
+#key {
+  font-size: 0.8rem;
+  background-color: #edcfee;
+  padding: 10px 20px;
+  border-radius: 20px;
 
+}
+
+.skill{
+  padding-bottom: 3rem;
+}
 
 @media (max-width: 699px) {
   #menu {

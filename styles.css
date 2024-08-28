@@ -113,6 +113,23 @@ header {
 .h-right img {
   width: 100%;
 }
+
+.features .fe-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.features .fe-box div{
+  width: 200px;
+}
+
+.features .fe-box img {
+  width: 50px;
+  margin-top: 3rem;
+}
+
 .search {
   position: relative;
 }
@@ -191,7 +208,12 @@ header {
   .h-left {
     width: 100%;
   }
-  .h-right{
+  .h-right {
     display: none;
   }
+
+  .features .fe-box div{
+    width: 40%;
+  }
+  
 }

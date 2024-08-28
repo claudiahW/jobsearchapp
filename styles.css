@@ -203,14 +203,15 @@ header {
 }
 
 /* trust section */
-.trust .t-box{
+.trust .t-box {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 3rem;
 }
 
-.trust .t-box img{
+.trust .t-box img {
   margin: 1rem 1rem 1rem 0;
 }
 

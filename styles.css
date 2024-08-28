@@ -176,6 +176,32 @@ header {
   color: #fff;
 }
 
+.jobs .jList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-items: start;
+  cursor: pointer;
+  color: #000;
+  padding: 2rem 2rem;
+}
+
+.jobs .jList.delete {
+  display: none;
+}
+.jobs .jList:hover {
+  background: #ecf1ee;
+}
+
+.jobs .jList img {
+  width: 40px;
+}
+
+.jobs .jList h3 {
+  padding-bottom: 0;
+}
+
 @media (max-width: 699px) {
   #menu {
     background-color: #fff;

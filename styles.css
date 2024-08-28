@@ -202,6 +202,18 @@ header {
   padding-bottom: 0;
 }
 
+/* trust section */
+.trust .t-box{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.trust .t-box img{
+  margin: 1rem 1rem 1rem 0;
+}
+
 @media (max-width: 699px) {
   #menu {
     background-color: #fff;
@@ -259,5 +271,35 @@ header {
 
   .features .fe-box div {
     width: 40%;
+  }
+
+  .jobs .job-id {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .jobs .job-id li {
+    padding: 20px 30px;
+    text-wrap: nowrap;
+  }
+
+  .jobs-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .jobs .jList {
+    width: 48%;
+    margin-top: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    padding: 2rem 1rem;
+    text-align: center;
+    justify-content: center;
   }
 }
